@@ -1,11 +1,11 @@
 package Ejercicio;
 
 public class Casa {
-    private Integer precio;
-    private Character califEnergetica;
-    private String refrCatastral;
-    private static Integer IVA=21;
-    private static Integer IVAReducido=16;
+    protected Integer precio;
+    protected Character califEnergetica;
+    protected String refrCatastral;
+    protected static Integer IVA=21;
+    protected static Integer IVAReducido=16;
     protected Direccion direccion2;
 
     Integer precioIVA(Integer precio){

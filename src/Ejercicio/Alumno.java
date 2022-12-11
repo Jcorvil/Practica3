@@ -1,6 +1,6 @@
 package Ejercicio;
 
-public class Alumno {
+public class Alumno{
     protected static String Nombre;
     protected static String Apellido1;
     protected static String Apellido2;
@@ -9,8 +9,7 @@ public class Alumno {
     protected static Double NotaMedia;
     protected static String Email;
 
-    Direccion direccion1;
-
+    protected Alumno(){}
 
     //Getters & Setters
 

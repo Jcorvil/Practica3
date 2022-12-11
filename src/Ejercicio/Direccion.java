@@ -8,6 +8,31 @@ public class Direccion {
     protected String Poblacion;
     protected String Provincia;
 
+    protected Direccion(){}
+
+    Direccion(String calle, Integer numero, String puerta, Integer CodPostal, String Poblacion, String Provincia){
+        this.Calle = calle;
+        this.Numero = numero;
+        this.Puerta = puerta;
+        this.CodPostal = CodPostal;
+        this.Poblacion = Poblacion;
+        this.Provincia = Provincia;
+    }
+
+    Direccion(String calle, String Poblacion){
+        this.Calle = calle;
+        this.Poblacion = Poblacion;
+    }
+
+    public void direccionCompleta(String calle, String Poblacion){
+        System.out.println("Vive en " + getCalle() + " " + getPoblacion());
+    }
+
+    public void direccionCompleta(String calle, Integer numero, String puerta, Integer CodPostal, String Poblacion, String Provincia){
+        System.out.println("Vive en " + getCalle() + " " + getNumero() + " " + getPuerta() + " " + getCodPostal() + " " + getPoblacion() + " " + getProvincia());
+    }
+
+
     //Getters & Setters
     public String getCalle() {
         return Calle;

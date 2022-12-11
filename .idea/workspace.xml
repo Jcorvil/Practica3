@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b3983e-9f95-43b7-ac8d-e6089bf7982d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio1/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio/Casa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio2/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio/Direccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
