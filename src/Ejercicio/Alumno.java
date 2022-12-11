@@ -6,10 +6,16 @@ public class Alumno{
     protected static String Apellido2;
     protected static Integer Edad;
     protected static String Repetidor;
-    protected static Double NotaMedia;
+    protected static Float NotaMedia;
     protected static String Email;
 
     protected Alumno(){}
+
+    float notaMedia(float a,float b){
+        float numeroMayor;
+        numeroMayor=Math.max(a,b);
+        return numeroMayor;
+    }
 
     //Getters & Setters
 
@@ -53,11 +59,11 @@ public class Alumno{
         Repetidor = repetidor;
     }
 
-    public  Double getNotaMedia() {
+    public  Float getNotaMedia() {
         return NotaMedia;
     }
 
-    public  void setNotaMedia(Double notaMedia) {
+    public  void setNotaMedia(Float notaMedia) {
         NotaMedia = notaMedia;
     }
 
