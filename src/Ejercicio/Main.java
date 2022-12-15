@@ -1,29 +1,23 @@
 package Ejercicio;
 
+
+//Ejercicio 5
+//Clase con método main
 public class Main {
     public static void main(String[] args) {
-        Alumno Alumno1 = new Alumno();
-        System.out.println(Alumno1.getNombre() + " " + Alumno1.getApellido1() + " " + Alumno1.getApellido2() + " " + Alumno1.getEdad());
 
-        Alumno Alumno2 = new Alumno();
-        Alumno2.setNombre("Jorge");
-        Alumno2.setApellido1("Coronil");
-        Alumno2.setApellido2("Villalba");
-        Alumno2.setEdad(25);
-        System.out.println(Alumno2.getNombre() + " " + Alumno2.getApellido1() + " " + Alumno2.getApellido2() + " " + Alumno2.getEdad());
+        //Ejercicio 5
+        //Se crea un alumno que vive en una casa.
+        Alumno alumno2 = new Alumno("Jorge", "Coronil", "Villalba", 25);
 
+        alumno2.identificador();
 
+        Direccion direccion1 = new Direccion("Calle España", 4, "2ºB", 11600, "Ubrique", "Cadiz");
+        System.out.println("El alumno " + alumno2.getNombre() + " " + alumno2.getApellido1() + " " + alumno2.getApellido2() + " vive en " + direccion1.getCalle() + " " + direccion1.getNumero() + " " + direccion1.getPuerta() + " " + direccion1.getCodPostal() + " " + direccion1.getPoblacion() + " " + direccion1.getProvincia());
 
+        alumno2.setNotaMedia(7.0f);
+        Alumno alumno3 = new Alumno("Rubén", "Viruez", "Flores", 22);
+        alumno3.setNotaMedia(6.5f);
 
-        Direccion direccion1 = new Direccion("Avda. Herrera Oria", 4, "2ºB", 11600, "Ubrique", "Cadiz");
-        direccion1.direccionCompleta("Avda. Herrera Oria", 4, "2ºB", 11600, "Ubrique", "Cadiz");
-        direccion1.direccionCompleta("Avda. Herrera Oria", "Ubrique");
-
-
-        Alumno2.setNotaMedia(7.0f);
-        Alumno Alumno3 = new Alumno();
-        Alumno3.setNotaMedia(6.5f);
-        float notaMedia = Alumno2.notaMedia(Alumno2.getNotaMedia(), Alumno3.getNotaMedia());
-        System.out.println(notaMedia);
     }
 }

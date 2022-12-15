@@ -1,5 +1,12 @@
 package Ejercicio;
 
+//Ejercicio 7
+//Importación del paquete "Persona".
+import org.losremedios.daw1.prog.practica.UT3.Persona.Persona;
+
+
+//Ejercicio 2
+//Campos
 public class Alumno{
     protected static String Nombre;
     protected static String Apellido1;
@@ -9,16 +16,29 @@ public class Alumno{
     protected static Float NotaMedia;
     protected static String Email;
 
-    protected Alumno(){}
 
-    float notaMedia(float a,float b){
-        float numeroMayor;
-        numeroMayor=Math.max(a,b);
-        return numeroMayor;
+    //Ejercicio 2
+    //Constructor sin parámetros
+    /*Ejercicio 3. Se añade una restricción al eliminar este constructor y obligar a usar el otro.
+    * protected Alumno(){}
+    */
+
+    //Constructor con nombre, apellidos y edad
+    protected Alumno(String Nombre, String Apellido1, String Apellido2, Integer Edad){
     }
 
-    //Getters & Setters
+    void identificador(){
+        System.out.println(Nombre + " " + Apellido1 + " " + Apellido2 + ", " + Edad + " años.");
+    }
 
+    static void notaMedia(float a,float b){
+        float numeroMayor;
+        numeroMayor=Math.max(a,b);
+    }
+
+
+    //Ejercicio 2
+    //Getters & Setters
     public  String getNombre() {
         return Nombre;
     }

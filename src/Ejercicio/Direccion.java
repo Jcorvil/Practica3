@@ -1,5 +1,8 @@
 package Ejercicio;
 
+
+//Ejercicio 4
+//Campos.
 public class Direccion {
     protected String Calle;
     protected Integer Numero;
@@ -8,6 +11,8 @@ public class Direccion {
     protected String Poblacion;
     protected String Provincia;
 
+    //Ejercicio 6
+    //Constructor por defecto
     protected Direccion(){}
 
     Direccion(String calle, Integer numero, String puerta, Integer CodPostal, String Poblacion, String Provincia){
@@ -24,16 +29,19 @@ public class Direccion {
         this.Poblacion = Poblacion;
     }
 
+    //Ejercicio 6
+    //Método que imprima dirección completa.
+    public void direccionCompleta(String calle, Integer numero, String puerta, Integer CodPostal, String Poblacion, String Provincia){
+        System.out.println("Vive en " + getCalle() + " " + getNumero() + " " + getPuerta() + " " + getCodPostal() + " " + getPoblacion() + " " + getProvincia());
+    }
+    //Ejercicio 6
+    //Sobrecarga de método, solo imprime calle y localidad.
     public void direccionCompleta(String calle, String Poblacion){
         System.out.println("Vive en " + getCalle() + " " + getPoblacion());
     }
 
-    public void direccionCompleta(String calle, Integer numero, String puerta, Integer CodPostal, String Poblacion, String Provincia){
-        System.out.println("Vive en " + getCalle() + " " + getNumero() + " " + getPuerta() + " " + getCodPostal() + " " + getPoblacion() + " " + getProvincia());
-    }
 
 
-    //Getters & Setters
     public String getCalle() {
         return Calle;
     }
