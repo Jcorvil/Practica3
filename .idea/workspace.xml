@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b3983e-9f95-43b7-ac8d-e6089bf7982d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Persona/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practica3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejercicio/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio/Alumno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejercicio/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio/Casa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejercicio/Direccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio/Direccion.java" afterDir="false" />
@@ -38,8 +38,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Usuario/Desktop/Programación/UD3/Calculadora/out/artifacts/Persona_jar/Calculadora.jar",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/Programación/UD3/Practica3",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"

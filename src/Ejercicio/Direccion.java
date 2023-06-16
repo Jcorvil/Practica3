@@ -4,12 +4,12 @@ package Ejercicio;
 //Ejercicio 4
 //Campos.
 public class Direccion {
-    protected String Calle;
-    protected Integer Numero;
-    protected String Puerta;
-    protected Integer CodPostal;
-    protected String Poblacion;
-    protected String Provincia;
+    String Calle;
+    Integer Numero;
+    String Puerta;
+    Integer CodPostal;
+    String Poblacion;
+    String Provincia;
 
     //Ejercicio 6
     //Constructor por defecto
@@ -41,6 +41,7 @@ public class Direccion {
     }
 
 
+    //Getters & Setters
 
     public String getCalle() {
         return Calle;
